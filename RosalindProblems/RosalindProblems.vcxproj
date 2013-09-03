@@ -82,6 +82,7 @@
     <ClInclude Include="problem2\Problem2Solver.h" />
     <ClInclude Include="problem3\Problem3Solver.h" />
     <ClInclude Include="problem4\Problem4Solver.h" />
+    <ClInclude Include="problem5\Problem5Solver.h" />
     <ClInclude Include="shared\FileReader.h" />
     <ClInclude Include="shared\FileWriter.h" />
     <ClInclude Include="shared\ISolver.h" />
@@ -91,6 +92,7 @@
     <ClCompile Include="problem2\Problem2Solver.cpp" />
     <ClCompile Include="problem3\Problem3Solver.cpp" />
     <ClCompile Include="problem4\Problem4Solver.cpp" />
+    <ClCompile Include="problem5\Problem5Solver.cpp" />
     <ClCompile Include="shared\FileReader.cpp" />
     <ClCompile Include="shared\FileWriter.cpp" />
     <ClCompile Include="shared\ISolver.cpp" />
@@ -101,6 +103,7 @@
     <Text Include="problem2\input.txt" />
     <Text Include="problem3\input.txt" />
     <Text Include="problem4\input.txt" />
+    <Text Include="problem5\input.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

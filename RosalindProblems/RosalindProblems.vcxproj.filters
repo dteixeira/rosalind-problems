@@ -13,10 +13,6 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Problem1">
-      <UniqueIdentifier>{606a7265-12aa-4ae7-be66-7f868d281b73}</UniqueIdentifier>
-      <Extensions>Problem1*</Extensions>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="shared\FileReader.h">
@@ -38,6 +34,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="problem4\Problem4Solver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="problem5\Problem5Solver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -66,11 +65,15 @@
     <ClCompile Include="problem4\Problem4Solver.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="problem5\Problem5Solver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="problem1\input.txt" />
     <Text Include="problem2\input.txt" />
     <Text Include="problem3\input.txt" />
     <Text Include="problem4\input.txt" />
+    <Text Include="problem5\input.txt" />
   </ItemGroup>
 </Project>
